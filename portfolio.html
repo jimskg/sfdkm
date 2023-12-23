@@ -1,0 +1,287 @@
+<html>
+  <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+  <head>
+    <link rel="stylesheet" href="portfolio.css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="portfolio.js"></script>
+    <style>
+      @import url('http://fonts.cdnfonts.com/css/la-belle-aurore');
+    </style>
+  </head>
+
+  <body>
+    <div id="mainMenuId" class="menu">
+      <div id="logoInfoId" class="logo-div">
+        <a id="homeTabId" href="#home"><img class="logo" src="images/salesforce-logo.png" alt="Salesforce"></a>
+        <div style="font-size: 0.8rem;" id="sub-title-text"></div>
+      </div>
+
+      <ul id="navigationId" class="navigation-items">
+        <li class="nav-item" style="border-top: 1px solid #282828;"><a id="aboutTabId" href="#about"></a></li>
+        <li class="nav-item"><a id="skillsTabId" href="#skills"></a></li>
+        <li class="nav-item"><a id="workTabId" href="#work"></a></li>
+        <li class="nav-item"><a id="contactTabId" href="#contact"></a></li>
+        <li class="nav-item"><a id="blogTabId" href="#blog"></a></li>
+      </ul>
+
+      <div id="contactDivID" class="contact-div">
+        <ul id="socialItemsId" class="social-items">
+          <li class="nav-logo-item"><a href="https://www.facebook.com/jon.kartso" target="_blank"><img class="logo-social" src="images/facebook-logo-white.png" alt="Facebook"></a></li>
+          <li class="nav-logo-item"><a href="https://www.instagram.com/dimkartso/" target="_blank"><img class="logo-social" src="images/instagram-logo-white.png" alt="Instagram"></a></li>
+          <li class="nav-logo-item"><a href="https://gr.linkedin.com/in/dimitris-kartsonakis-mademlis-phd-a323bb140" target="_blank"><img class="logo-social" src="images/linkedin-logo-white.png" alt="Linkedin"></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="pageId" class="page">
+      <div id="loadingTabId" class="slidein-from-right tab-hidden">
+        <div class="container">
+          <div class="html-tags" style="text-align: center;" id="loading-text"></div>
+          <div class="Loading"></div>
+        </div>
+      </div>
+      <div id="pagehomeTabId" class="slidein-from-right">
+        <p class="html-tags"> &lt;html&gt; </p>
+        <p class="html-tags" style="margin-left:2rem"> &lt;body&gt; </p>
+        <p class="html-tags" style="margin-left:4rem"> &lt;h1&gt; </p>
+        <h1 class="my-description-h1" style="margin-left:6rem">
+          <span class="description-effect">H</span>
+          <span class="description-effect">i</span>
+          <span class="description-effect">,</span>
+          <br>
+          <span class="description-effect">I</span>
+          <span class="description-effect">'</span>
+          <span class="description-effect">m</span>
+          <span >&nbsp;</span>
+          <span class="description-effect">D</span>
+          <span class="description-effect">i</span>
+          <span class="description-effect">m</span>
+          <span class="description-effect">i</span>
+          <span class="description-effect">t</span>
+          <span class="description-effect">r</span>
+          <span class="description-effect">i</span>
+          <span class="description-effect">s</span>
+          <span class="description-effect">,</span>
+          <br>
+          <span class="description-effect">S</span>
+          <span class="description-effect">a</span>
+          <span class="description-effect">l</span>
+          <span class="description-effect">e</span>
+          <span class="description-effect">s</span>
+          <span class="description-effect">f</span>
+          <span class="description-effect">o</span>
+          <span class="description-effect">r</span>
+          <span class="description-effect">c</span>
+          <span class="description-effect">e</span>
+          <span >&nbsp;</span>
+          <span class="description-effect">d</span>
+          <span class="description-effect">e</span>
+          <span class="description-effect">v</span>
+          <span class="description-effect">e</span>
+          <span class="description-effect">l</span>
+          <span class="description-effect">o</span>
+          <span class="description-effect">p</span>
+          <span class="description-effect">e</span>
+          <span class="description-effect">r</span>
+        </h1>
+        <br>
+        <br>
+        <p class="html-tags" style="margin-left:4rem"> &nbsp; </p>
+        <p class="html-tags" style="margin-left:4rem"> &lt;/h1&gt; </p>
+        <p class="html-tags" style="margin-left:4rem"> &lt;p&gt; </p>
+        <p id="my-description-id" class="my-description-p" style="margin-left:6rem"></p>
+        <p class="html-tags" style="margin-left:4rem"> &lt;/p&gt; </p>
+        <p class="html-tags" style="margin-left:4rem"> &lt;button&gt; </p>
+        <p style="margin-left:6rem">
+          <a class="button" href="#contact" id="contact-button-id">Contact me</a>
+        </p>
+        <p class="html-tags" style="margin-left:4rem"> &lt;/button&gt; </p>
+        <p class="html-tags" style="margin-left:2rem"> &lt;/body&gt; </p>
+        <p class="html-tags"> &lt;/html&gt; </p>
+      </div>
+      <div id="pageaboutTabId" class="slidein-from-right tab-hidden">
+        <p class="html-tags"> &lt;html&gt; </p>
+        <p class="html-tags" style="margin-left:2rem"> &lt;body&gt; </p>
+        <!-- <div style="display:flex">
+          <div>
+            <p class="html-tags" style="margin-left:4rem"> &lt;img&gt; </p>
+            <div class="logo-about" style="margin-left:4rem"> <img src="images/dimitris.jpg"/></div>
+            <p class="html-tags" style="margin-left:4rem"> &lt;/img&gt; </p>
+          </div>
+          <div>
+            <p class="html-tags" style="margin-left:4rem"> &lt;p&gt; </p>
+            <p id="my-about-id" class="my-description-p" style="margin-left:6rem"></p>
+          </div>
+        </div> -->
+        <div style="width:90%">
+          <div class="about-img-description">
+            <p class="html-tags" style="margin-left:4rem "> &lt;img&gt; </p>
+            <div class="logo-about" style="margin-left:4rem"> <img src="images/dimitris.jpg"/></div>
+            <p class="html-tags" style="margin-left:4rem"> &lt;/img&gt; </p>
+          </div>
+          <div>
+            <p class="html-tags" style="margin-left:4rem"> &lt;p&gt; </p>
+            <p id="my-about-id" class="my-description-p" style="margin-left:6rem;"></p>
+          </div>
+        </div>
+        <p class="html-tags" style="margin-left:4rem"> &lt;/p&gt; </p>
+        <p class="html-tags" style="margin-left:2rem"> &lt;/body&gt; </p>
+        <p class="html-tags"> &lt;/html&gt; </p>
+      </div>
+      <div id="pageskillsTabId" class="slidein-from-right tab-hidden">
+        <p class="html-tags"> &lt;html&gt; </p>
+        <p class="html-tags" style="margin-left:2rem"> &lt;body&gt; </p>
+        <p class="html-tags" style="margin-left:4rem"> &lt;p&gt; </p>
+        <div style="width:90%;">
+          <p id="my-skills-id" class="my-description-p" style="margin-left:6rem"></p>
+          
+          <p class="html-tags" style="margin-left:4rem"> &lt;/p&gt; </p>
+          <!-- <div style="display:flex">
+            <p class="html-tags" style="margin-left:4rem"> &lt;button&gt; </p>
+            <p id="show-hide-cerification-skills-button-id" class="accordion my-description-p" onclick="toggleAccordion('certificationsAccordion')" style="margin-left:1rem"></p>
+            <p class="html-tags" style="margin-left:1rem"> &lt;/button&gt; </p>
+          </div> -->
+          <p class="html-tags" style="margin-left:4rem"> &lt;table&gt; </p>
+          <div class="panel" id="certificationsAccordion" style="margin-left:6rem; display:flex;">
+            <div class="certification-child-div">
+              <table id="table-certifications-id" class="cert-table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th class="cert-table-row">Certification Name</th>
+                    <th class="cert-table-row">Earned Date</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+              <ul class="pagination" id="pagination"></ul>
+            </div>
+            <div class="skill-child-div">
+              <div class="skill-bar" id="skill-bar-container"></div>
+            </div>
+          </div>
+          
+        </div>
+        <p class="html-tags" style="margin-left:4rem"> &lt;/table&gt; </p>
+        <p class="html-tags" style="margin-left:2rem"> &lt;/body&gt; </p>
+        <p class="html-tags"> &lt;/html&gt; </p>
+      </div>
+      <div id="pageworkTabId" class="slidein-from-right tab-hidden">
+        work
+      </div>
+      <div id="pagecontactTabId" class="slidein-from-right tab-hidden">
+        <div style="display: flex;">
+          <div class="text-zone" >
+            <p class="html-tags"> &lt;html&gt; </p>
+            <p class="html-tags" style="margin-left:2rem"> &lt;body&gt; </p>
+            <p class="html-tags" style="margin-left:4rem"> &lt;h1&gt; </p>
+            <h1 class="my-description-h1" style="margin-left:6rem">
+              <span class="description-effect">C</span>
+              <span class="description-effect">o</span>
+              <span class="description-effect">n</span>
+              <span class="description-effect">t</span>
+              <span class="description-effect">a</span>
+              <span class="description-effect">c</span>
+              <span class="description-effect">t</span>
+              <span >&nbsp;</span>
+              <span class="description-effect">m</span>
+              <span class="description-effect">e</span>
+            </h1>
+            <br>
+            <br>
+            <p class="html-tags" style="margin-left:4rem"> &nbsp; </p>
+            <p class="html-tags" style="margin-left:4rem"> &lt;/h1&gt; </p>
+            <p class="html-tags" style="margin-left:4rem"> &lt;p&gt; </p>
+            <p id="contact-text" class="my-contact-p" style="margin-left:6rem"> </p>
+            <p class="html-tags" style="margin-left:4rem"> &lt;/p&gt; </p>
+            <p class="html-tags" style="margin-left:4rem"> &lt;form&gt; </p>
+            <p style="margin-left:6rem">
+              <div class="contact-form" style="margin-left:6rem">
+                <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D1i000000ToeJ" method="POST">
+                  <input type=hidden name="oid" value="00D1i000000ToeJ">
+                  <input type=hidden name="retURL" value="#thankyou">
+                  <input type=hidden name="00N1i000002ZCdt" id="webToLeadId" type="checkbox" value="true">
+                  <div class="group-inputs">
+                    <input class="half-input" type="text" id="nameId" name="last_name" size="10" required>
+                    <input class="half-input" style="margin-left: 2%;" type="email" id="emailId" name="email" size="10" required>
+                  </div>
+                  <input style="width:100%" type="text" id="subjectId" name="00N1i000002ZCdy" required>
+              
+                  <textarea class="contact-message-input" id="messageId" name="description" required></textarea>
+              
+                  <input id="thank-you-button-id" class="button" type="submit" value="Submit" href="#thankyou">
+                </form>
+              </div>
+            </p>
+            <p class="html-tags" style="margin-left:4rem"> &lt;/form&gt; </p>
+            <p class="html-tags" style="margin-left:2rem"> &lt;/body&gt; </p>
+            <p class="html-tags"> &lt;/html&gt; </p>
+          </div>
+          <div class="map-zone" >
+            <div >
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe class="iframe-style" id="gmap_canvas" src="https://maps.google.com/maps?q=Papaflessa%202%20Kalamaria%20551%2033&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                  <a href="https://123movies-a.com"></a>
+                  <br>
+                  <style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style>
+                  <style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="pageblogTabId" class="slidein-from-right tab-hidden">
+        blog
+      </div>
+      <div id="pagethankyouTabId" class="slidein-from-right tab-hidden">
+        <p class="html-tags"> &lt;html&gt; </p>
+        <p class="html-tags" style="margin-left:2rem"> &lt;body&gt; </p>
+        <p class="html-tags" style="margin-left:4rem"> &lt;h1&gt; </p>
+        <h1 class="my-description-h1" style="margin-left:6rem">
+          <span class="description-effect">T</span>
+          <span class="description-effect">h</span>
+          <span class="description-effect">a</span>
+          <span class="description-effect">n</span>
+          <span class="description-effect">k</span>
+          <span >&nbsp;</span>
+          <span class="description-effect">y</span>
+          <span class="description-effect">o</span>
+          <span class="description-effect">u</span>
+          <br>
+          <span class="description-effect">f</span>
+          <span class="description-effect">o</span>
+          <span class="description-effect">r</span>
+          <span >&nbsp;</span>
+          <span class="description-effect">y</span>
+          <span class="description-effect">o</span>
+          <span class="description-effect">u</span>
+          <span class="description-effect">r</span>
+          <span >&nbsp;</span>
+          <span class="description-effect">i</span>
+          <span class="description-effect">n</span>
+          <span class="description-effect">t</span>
+          <span class="description-effect">e</span>
+          <span class="description-effect">r</span>
+          <span class="description-effect">e</span>
+          <span class="description-effect">s</span>
+          <span class="description-effect">t</span>
+          <span >&nbsp;</span>
+          <span class="description-effect">!</span>
+          <span >&nbsp;</span>
+        </h1>
+        <br>
+        <br>
+        <p class="html-tags" style="margin-left:4rem"> &nbsp; </p>
+        <p class="html-tags" style="margin-left:4rem"> &lt;/h1&gt; </p>
+        <p class="html-tags" style="margin-left:2rem"> &lt;/body&gt; </p>
+        <p class="html-tags"> &lt;/html&gt; </p>
+      </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
