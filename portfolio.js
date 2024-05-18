@@ -1,4 +1,6 @@
 let certObject = [
+  {image:"https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000BEqe1&oid=00DF0000000gZsu&lastMod=1692347554000", name:"Salesforce Certified Marketing Cloud Account Engagement Consultant", date:"April 28, 2024"},
+  {image:"https://drm.file.force.com/servlet/servlet.ImageServer?id=015KV00000AXneS&oid=00DF0000000gZsu&lastMod=1706081133000", name:"Salesforce Certified Marketing Associate", date:"April 14, 2024"},
   {image:"https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000BEqdw&oid=00DF0000000gZsu&lastMod=1692347488000", name:"Salesforce Certified Marketing Cloud Account Engagement Specialist", date:"October 6, 2023"},
 {image:"https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000BEqgH&oid=00DF0000000gZsu&lastMod=1693557495000", name:"Salesforce Certified AI Associate", date:"September 30, 2023"},
 {image:"https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000B7y1t&oid=00DF0000000gZsu&lastMod=1657181928000", name:"Salesforce Certified Business Analyst", date:"March 11, 2023"},
