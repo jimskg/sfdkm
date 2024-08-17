@@ -1,4 +1,6 @@
 let certObject = [
+{image:"https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000B2VxS&oid=00DF0000000gZsu&lastMod=1623124955000", name:"Salesforce Certified User Experience Designer", date:"August 17, 2024"},
+{image:"https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000BEqgM&oid=00DF0000000gZsu&lastMod=1693557540000", name:"Salesforce Certified Data Cloud Consultant", date:"August 15, 2024"},
 {image:"https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000BEqe1&oid=00DF0000000gZsu&lastMod=1692347554000", name:"Salesforce Certified Marketing Cloud Account Engagement Consultant", date:"April 28, 2024"},
 {image:"https://drm.file.force.com/servlet/servlet.ImageServer?id=015KV00000AXneS&oid=00DF0000000gZsu&lastMod=1706081133000", name:"Salesforce Certified Marketing Associate", date:"April 14, 2024"},
 {image:"https://drm.file.force.com/servlet/servlet.ImageServer?id=0153k00000BEqdw&oid=00DF0000000gZsu&lastMod=1692347488000", name:"Salesforce Certified Marketing Cloud Account Engagement Specialist", date:"October 6, 2023"},
@@ -48,6 +50,15 @@ var myAge = (function() {
   return age;
 })();
 
+var myDeloitteYears = (function() {
+  let dob = new Date("01/03/2019");  
+  let month_diff = Date.now() - dob.getTime();  
+  let age_dt = new Date(month_diff);   
+  let year = age_dt.getUTCFullYear();  
+  let age = Math.abs(year - 1970);
+  return age;
+})();
+
 function setTexts(){
   document.getElementById('loading-text').innerHTML = 'Thinking...';
   document.getElementById('aboutTabId').innerHTML = 'About';
@@ -57,7 +68,7 @@ function setTexts(){
   // document.getElementById('blogTabId').innerHTML = 'Blog';
   document.getElementById('sub-title-text').innerHTML = 'Salesforce <br> Full-Stack Developer';
   document.getElementById('my-description-id').innerHTML = 'Full-Stack Developer / Salesforce Expert';
-  document.getElementById('my-about-id').innerHTML = 'Greetings! I\'m Dimitris, a '+myAge+'-year-old professional residing in the beautiful city of Thessaloniki, Greece. My academic journey began with a Bachelor\'s degree in Mathematics from Aristotle University of Thessaloniki, followed by a dual master\'s pursuit in Economics and Applied Informatics at the University of Macedonia. I further solidified my expertise by earning a Ph.D. in Econometrics, exploring the intersection of mathematics, economics, and applied informatics. In the dynamic realm of Salesforce, I\'ve been a proud member of the Deloitte family for the past 5 years. As a Salesforce Developer/Consultant, my passion for innovation and problem-solving has driven me to achieve <a class="cert-a" href=\'https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=rTEVstP1E2NUYZmfisX5o8phIkPqhipcbVdrq13bpMO/gJhy1C/9mEo71jDiuA+W\' target="_blank">'+certObject.length+'</a> Salesforce certifications. Throughout my professional journey, I have cultivated expertise in a wide array of Salesforce domains, demonstrating my proficiency in handling diverse aspects of the Salesforce ecosystem. My work spans across key domains such as Sales Cloud, Service Cloud, Field Service, CPQ (Configure, Price, Quote), Communities, and more. This extensive exposure reflects my commitment to mastering various facets of Salesforce technology, enabling me to contribute effectively to a broad spectrum of projects and challenges within the platform.';
+  document.getElementById('my-about-id').innerHTML = 'Greetings! I\'m Dimitris, a '+myAge+'-year-old professional residing in the beautiful city of Thessaloniki, Greece. My academic journey began with a Bachelor\'s degree in Mathematics from Aristotle University of Thessaloniki, followed by a dual master\'s pursuit in Economics and Applied Informatics at the University of Macedonia. I further solidified my expertise by earning a Ph.D. in Econometrics, exploring the intersection of mathematics, economics, and applied informatics. In the dynamic realm of Salesforce, I\'ve been a proud member of the Deloitte family for the past '+myDeloitteYears+' years. As a Salesforce Developer/Consultant, my passion for innovation and problem-solving has driven me to achieve <a class="cert-a" href=\'https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=rTEVstP1E2NUYZmfisX5o8phIkPqhipcbVdrq13bpMO/gJhy1C/9mEo71jDiuA+W\' target="_blank">'+certObject.length+'</a> Salesforce certifications. Throughout my professional journey, I have cultivated expertise in a wide array of Salesforce domains, demonstrating my proficiency in handling diverse aspects of the Salesforce ecosystem. My work spans across key domains such as Sales Cloud, Service Cloud, Field Service, CPQ (Configure, Price, Quote), Communities, and more. This extensive exposure reflects my commitment to mastering various facets of Salesforce technology, enabling me to contribute effectively to a broad spectrum of projects and challenges within the platform.';
   // document.getElementById('show-hide-cerification-skills-button-id').innerHTML = 'Hide Certifications / Skills';
   document.getElementById('my-skills-id').innerHTML = 'With a robust foundation in Salesforce technologies, I have achieved and currently hold <a class="cert-a" href=\'https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=rTEVstP1E2NUYZmfisX5o8phIkPqhipcbVdrq13bpMO/gJhy1C/9mEo71jDiuA+W\' target="_blank">'+certObject.length+'</a> certifications, showcasing my commitment to continuous learning and mastery of the Salesforce ecosystem. My expertise extends across a spectrum of Salesforce domains, encompassing everything from custom development, automation, and integration to data architecture and system administration.';
   document.getElementById('nameId').placeholder = 'Name';
